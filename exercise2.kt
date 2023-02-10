@@ -11,7 +11,7 @@ fun iterate(a: Int,b: Int,operator: Char): Int {
      c = a + b   
     } else if(operator == '-') {
         c = a - b
-    } else if(operator == '*'){
+    } else if(operator == '*'){ 
         c = a * b
     } else if(operator == '/'){
      if (b != 0) {
